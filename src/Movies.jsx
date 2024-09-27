@@ -10,7 +10,7 @@ const Movies = () => {
     }
     axios({
       method: "GET",
-      url: `http://www.omdbapi.com/?t=${search}&&apikey=dd55791f`,
+      url: `https://www.omdbapi.com/?t=${search}&&apikey=dd55791f`,
     }).then((res) => {
       console.log(res.data);
       setData(res.data);
