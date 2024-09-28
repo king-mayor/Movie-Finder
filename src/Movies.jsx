@@ -58,8 +58,8 @@ const Movies = () => {
               {data.Title}
             </h2>
             <p className="text-gray-600 lg:text-xl text-lg">{data.Plot}</p>
-            <p className="text-md text-gray-600 py-2">{data.Genre}</p>
-            <h3 className="text-md text-gray-600 py-2">{data.Actors}</h3>
+            <p className="text-md text-red-600 py-2">{data.Genre}</p>
+            <h3 className="text-md text-red-600 py-2">{data.Actors}</h3>
             <h4 className="text-md text-red-600 py-2">{data.Director}</h4>
             <h4 className="text-md text-red-600 py-2">{data.Writer}</h4>
             <h4 className="text-md text-red-600 py-2">{data.Year}</h4>
